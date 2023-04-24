@@ -1,0 +1,25 @@
+.slider-image{
+  filter: brightness(50%);
+  height:100vh;
+  background-size: cover;
+  object-fit:cover;
+  background-position:center;
+  width:100%;
+}
+.corousel-text h5{
+  font-size:40px;
+  background:#1b2430;
+  color:white;
+  opacity:0.8;
+}
+.corousel-text p{
+  font-size:27px;
+  color:white;
+  background:#1b2430;
+  opacity:0.8;
+}
+.carousel-caption{
+  left:5% !important;
+  right:5% !important;
+}
+.corousel-wrapper{ }

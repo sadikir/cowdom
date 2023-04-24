@@ -1,0 +1,77 @@
+.billing-wrapper{
+  
+  width:700px;
+  margin:auto;
+  margin-top:80px;
+}
+.actual-billing{
+  margin-top: 5px !important;
+}
+.payment-type-wrapper{
+  margin:auto;
+  margin-top:10px;
+}
+.payment, .payment-method{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+.payment-type-wrapper span, .payment>span{
+  display:flex;
+  gap:5px;
+  align-items:center;
+}
+.payment-type-wrapper span>p{
+  font-size:20px;
+  font-weight:bold;
+}
+.billing-credit-icon{
+  font-size:35px;
+}
+.payment-type-wrapper p{
+  margin-bottom:0px;
+}
+.payment-type-wrapper button{
+  width:100px;
+  background:#0e8df2;
+  border:none;
+  border-radius:5px;
+  color:white;
+  padding:5px;}
+.payment-history-wrapper{
+  margin-top:30px;
+}
+.payment{
+  margin-top:10px;
+}
+.payment p{
+  margin-bottom:0px;
+}
+.payment-amount{
+  width:100px;
+  background:#008000;
+  padding:5px;
+  border-radius:5px;
+  text-align:center;
+  color:#fff;
+  font-weight:600;
+}
+@media only screen and (max-width:956px){
+  .billing-wrapper{
+    width:95%;
+  }
+  .payment-type-wrapper span>p{
+  font-size:16px;
+  
+}
+  .payment p{
+  margin-bottom:0px;
+  font-size:16px;
+}
+  .payment i{
+    font-size:10px;
+  }
+  .hide-icon-mobile{
+    display:none;
+  }
+}

@@ -1,0 +1,89 @@
+.whyInvest-wrapper{
+  display:flex;
+  justify-content:space-evenly;
+  padding-top:100px;
+}
+.whyInvest-intro{
+  width:35%;
+}
+.whyInvest-details{
+  width:45%;
+}
+.whyInvest-intro>h1{
+  font-size: 40px;
+  line-height: 1.2em;
+  font-weight:1000;
+}
+.whyInvest-intro>p{
+  font-size:22px;
+  padding-top: 1.6em;
+  padding-bottom: 1.6em;
+  font-weight:600;
+  line-height:35px;
+}
+#button{
+  border:none;
+  outline:none;
+  background:none;
+  font-weight:800;
+  color:#0e8df2 !important;
+  font-size:20px;
+  border-bottom: 3px solid #0e8df2;
+}
+.details{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+}
+.fa-money-check-dollar, .fa-face-tired, .fa-plus{
+  font-size:50px;
+  color:#0e8df2;
+  width:10%;
+}
+.details div{
+  width:85%;
+}
+.details h1{
+  font-weight:1000;
+}
+.details p{
+  font-size:20px;
+  font-weight:600;
+}
+@media screen and (max-width:956px){
+  .whyInvest-wrapper{
+
+  flex-direction:column;
+  padding-top:100px;
+}
+.whyInvest-intro{
+  width:95%;
+  margin:auto;
+  padding-bottom:60px;
+}
+.whyInvest-details{
+  width:95%;
+  margin:auto;
+}
+
+
+#button{
+  font-size:25px;
+}
+.details{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+}
+.fa-money-check-dollar, .fa-face-tired, .fa-plus{
+  font-size:40px;
+  color:#0e8df2;
+  width:10%;
+}
+.details div{
+  width:85%;
+}
+.details h2{
+  font-weight:1000;
+}
+}

@@ -1,0 +1,12 @@
+.faq-wrapper{
+  padding-top:60px;
+}
+.faq-wrapper>h1{
+  text-align:center;
+}
+@media screen and (min-width:1196px){
+  .faq-wrapper{
+    width:60%;
+    margin:auto;
+  }
+}

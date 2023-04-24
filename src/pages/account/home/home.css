@@ -1,0 +1,210 @@
+.account-home-wrapper{
+  display:flex;
+  margin:auto;
+  align-items:center;
+  flex-direction:column;
+  justify-content:center;
+  margin-top:80px;
+  width:700px;
+  
+}
+.account-home-actions{
+  display: flex;
+  gap:10px;
+  justify-content:space-between;
+  width:100%;
+}
+.home-action1,.home-action2,.home-action3,.home-action4{
+  width:150px;
+  height:150px;
+  position:relative;
+  border-radius:20px;
+  cursor:pointer;
+}
+.home-action-icon{
+  position:absolute;
+  left:12px;
+  top:12px;
+  padding:10px;
+  border-radius:50%;
+  
+  
+  
+}
+.action-icon1, .action-icon4{
+  background:#d8d9fa;
+  color:#2b43ae; #c9ebd8
+  
+}
+.action-icon2{
+  background:#c9ebd8;
+  color:#00774e; #feeec8
+  
+}
+.action-icon3{
+  background:#feeec8;
+  color:#986817; 
+  
+}
+.account-home-actions p{
+  position:absolute;
+  bottom:12px;
+  left:12px;
+  margin-bottom: 0px;
+  display:block;
+  font-weight:bold;
+}
+.home-action1{
+  background:#f0f0fe;
+}
+.home-action2{
+  background:#eafaf0;
+}
+.home-action3{
+  background:#fff9e6;
+}
+.home-action4{
+  background:#f0f0fe;
+}
+
+.home-revenue-outlook{
+  width:100%;
+  height:auto;
+  padding:20px;
+  
+  border-radius:25px;
+  margin-top:25px;
+  border: 1px solid #e1e2e5;
+}
+.head-strong{
+  font-size:28px;
+  font-weight:400;
+}
+.value-strong{
+  font-weight:800;
+  font-size:20px;
+}
+.home-revenue-outlook tr>td:first-of-type{
+  padding-right:10px;
+ 
+}
+.home-revenue-outlook tr>td:last-of-type{
+  
+  padding-left:10px;
+  border-left:1px solid #e1e2e5;
+}
+.cattle-price-history{
+  width:100%;
+  margin-top:20px;
+ 
+}
+.cattle-price-history>img{
+  width:100%;
+  border-radius:20px;
+  border: 1px solid #e1e2e5;
+}
+.home-billing-wrapper{
+  border-radius:20px;
+  display:flex;
+  height:60px;
+  align-items:center;
+  justify-content:center;
+  margin-top:60px;
+  border: 1px solid #e1e2e5;
+  width:100%;
+  
+}
+
+.home-billing-wrapper li{
+  display:inline;
+  font-size:25px;
+  
+}
+.home-billing-wrapper ul{
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  margin-bottom: 0px;
+  width:70%;
+}
+.home-billing-wrapper i{
+  width:10%;
+  font-size:25px;
+}
+
+
+@media only screen and (max-width:527px){
+  .home-billing-wrapper ul{
+    width:80%;
+  }
+  .home-billing-wrapper i{
+  width:10%;
+  font-size:16px;
+}
+  .home-billing-wrapper li{
+  display:inline;
+  font-size:16px;
+  
+}
+}
+
+
+
+@media only screen and (max-width:1090px){
+  .account-home-wrapper{
+    width:500px;
+  }
+}
+@media only screen and (max-width:956px){
+  .account-home-wrapper{
+    width:95%;
+  }
+  .account-home-actions{
+  display: flex;
+  flex-direction:column;
+  gap:10px;
+  align-items:center;
+  justify-content:space-between;
+  width:100%;
+}
+  .home-action1,.home-action2,.home-action3,.home-action4{
+  width:95%;
+  height:60px;
+}
+  .mobile-flex{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+  }
+  .account-home-actions p{
+  position:relative;
+  margin-bottom: 0px;
+  display:block;
+    bottom:auto;
+    left:auto;
+  font-weight:bold;
+  width:70%;
+}
+  .home-action-icon{
+  position:relative !important;
+  top:auto;
+    left:auto;
+  
+  padding:10px;
+  border-radius:50%;
+}
+  .head-strong{
+  font-size:22px;
+  font-weight:400;
+}
+.value-strong{
+  font-weight:800;
+  font-size:16px;
+}
+}
+.show-checkout{
+  display:block;
+}
+.hide-checkout{
+  display:none;
+}

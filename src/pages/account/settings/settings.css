@@ -1,0 +1,63 @@
+.settings-wrapper{
+  margin:auto;
+  width:700px;
+  margin-top:80px;
+  border: 3px solid #e1e2e5;
+  border-radius:20px;
+  
+  
+ 
+}
+.settings-heading{
+  padding:20px;
+  text-align:center;
+}
+.user{
+  display:flex;
+  align-items:center;
+  padding:20px;
+}
+.settings-wrapper .profile-img{
+  width:60px;
+  border-radius:50%;
+  
+}
+.username{
+  display:block;
+  margin-left:20px;
+ 
+}
+.item-separator{
+  width:70%;
+  height:3px;
+  background:#e1e2e5;
+  margin:auto;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.address-wrapper, .security-wrapper{
+  padding:20px;
+}
+.address, .security{
+  display:flex;
+  width:100%;
+  gap:10px;
+  flex-wrap:wrap;
+}
+.address  input, .security input{
+  width:300px;
+  margin:auto;
+  display:block;
+  
+}
+@media only screen and (max-width:956px){
+  .settings-wrapper{
+    width:95%;
+  }
+  .address  input, .security input{
+  width:100%;
+}
+  .user input{
+    width:80%;
+  }
+}

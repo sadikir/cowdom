@@ -1,0 +1,134 @@
+.slider-section{
+   background:linear-gradient(to bottom, #1b243038,#1c5cb138);
+  margin-top:60px;
+  margin-bottom:60px;
+  padding:100px;
+}
+.calculator-wrapper{
+  display:flex;
+  justify-content:space-evenly;
+  margin-top:40px;
+ 
+}
+.calculator-heading>h1{
+  width:70%;
+  margin:auto;
+  font-weight:1000;
+}
+.dragable-bar{
+  width:30%;
+  
+}
+.dragable-bar>h4{
+  font-weight:300;
+}
+.dragable-bar>p{
+  font-size:25px;
+  font-weight:700;
+}
+.dragable-bar>p>span{
+  padding-right:5px;
+}
+.slider{
+  100%;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+.estimated-return{
+  width:30%;
+}
+input[type="range"] {
+  -webkit-appearance: none;
+  height: 12px;
+  width: 100%;
+  background: #e1e2e5;
+  border-radius: 5px;
+  background-image: linear-gradient(#0e8df2, #0e8df2);
+  background-repeat: no-repeat;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #0e8df2;
+  cursor: pointer;
+  box-shadow: 0 0 2px 0 #555;
+  transition: background 0.3s ease-in-out;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  box-shadow: #0e8df25c 0px 0px 0px 8px;
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+  box-shadow: #0e8df25c 0px 0px 0px 11px;
+  transition: box-shadow 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    left 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    bottom 350ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.estimate-wrapper{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  border: 2px solid #0e8df2;
+  padding:20px;
+  border-radius:10px;
+}
+.estimate-wrapper>h1{
+  color:#0e8df2;
+  font-size:35px;
+  font-weight:800;
+}
+@media screen and (max-width:956px){
+ .slider-section{
+   background:linear-gradient(to bottom, #1b243038,#1c5cb138);
+  margin-top:50px;
+  margin-bottom:60px;
+  padding:20px;
+}
+  .calculator-wrapper{
+  flex-direction:column;
+}
+.calculator-heading>h1{
+  width:100%;
+  margin:auto;
+  font-weight:1000;
+}
+.dragable-bar{
+  width:80%;
+  margin:auto;
+  
+}
+.dragable-bar>h4{
+  font-weight:300;
+}
+.dragable-bar>p{
+  font-size:25px;
+  font-weight:700;
+}
+.dragable-bar>p>span{
+  padding-right:5px;
+}
+.slider{
+  100%;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+.estimated-return{
+  width:80%;
+  margin:auto;
+  margin-top:30px;
+}
+}

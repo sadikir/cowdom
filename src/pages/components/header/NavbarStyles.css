@@ -1,0 +1,141 @@
+.investor-nav{
+  display:flex;
+  position: fixed;
+  width:100%;
+  align-items:center;
+  justify-content: space-between;
+  padding:10px 20px;
+  background:#1b2430;
+  box-shadow:0px 5px 15px rgba(0,0,0,0.6);
+  z-index:10;
+  top:0px;
+}
+.logo-wrapper{
+  width:150px;
+}
+.logo{
+  width:100%;
+}
+.investor-navmenu{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:0px;
+}
+.investor-navmenu li{
+  list-style:none;
+  padding:0 20px;
+  position:relative;
+}
+.investor-navmenu li a{
+  text-decoration:none;
+  font-size: 1.3rem;
+  font-weight:600;
+  color: #fff;
+  transition:0.3s ease-in-out;
+}
+.investor-navmenu li a:hover{
+  color:white;
+}
+
+.investor-navmenu li a:hover::before{
+  width:30%;
+  position:absolute;
+  height:4px;
+  content:"";
+  background:white;
+  bottom:-4px;
+  left:20px;
+}
+#mobile{
+  display:none;
+}
+#mobile i{
+  color:white;
+}
+.loginSignup{
+  display:flex;
+  align-items:center;
+}
+ol, ul {
+    padding-left: 0px;
+}
+.loginSignup li:first-of-type{
+  background:green;
+  padding:5px 20px;
+  border-radius:10px;
+  margin-right:2px !important;
+  transition:0.3s ease-in-out;
+}
+.loginSignup:first-of-type a:hover::before{
+  background:none;
+  
+}
+.loginSignup li:first-of-type:hover{
+ background:#3ff53f;
+}
+.loginSignup li:last-of-type:hover{
+  background:#51a9ef;
+}
+.loginSignup:last-of-type a:hover::before{
+  background:none;
+}
+.loginSignup li:last-of-type{
+  background:#0e8df2;
+  padding:5px 20px;
+  border-radius:10px;
+  margin-left:2px !important;
+  transition:0.3s ease-in-out;
+  white-space:nowrap;
+}
+@media screen and (max-width:956px){
+  .investor-navmenu{
+    position:fixed;
+    flex-direction:column;
+    top:50px;
+    display:flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    width:100vw;
+    height:100vh;
+    background:#1b2430;
+    right:-100vw;
+    transition: 0.3s ease-in-out;
+    z-index:99;
+    
+  }
+  .fa-bars, .fa-times{
+    font-size:30px;
+  }
+  .loginSignup{
+  width:100%;
+  position:absolute;
+  justify-content:space-evenly;
+  
+}
+  .loginSignup li:first-of-type, .loginSignup li:last-of-type{
+    width:40%;
+  }
+  #mobile{
+    display:block;
+  }
+  .show-menu{
+    right:0px !important;
+  }
+  .investor-navmenu li{
+    margin-bottom:10px;
+    margin-top:10px;
+    padding:0 25px;
+    display:flex;
+    justify-content:space-evenly;
+    width:100%;
+  }
+  .investor-navmenu li a{
+    text-align:center;
+    width:100%;
+    height:100%;
+}
+  .investor-navmenu li a:hover::before{
+  background:none;
+}
+}

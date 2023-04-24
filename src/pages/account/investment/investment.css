@@ -1,0 +1,65 @@
+.investment-wrapper{
+  margin:auto;
+  width:700px;
+  margin-top:80px;
+  
+  border-radius:20px;
+}
+.my-farm-heading{
+  margin-top:20px;
+}
+.farm-wrapper{
+  margin-top:20px;
+}
+.farm-wrapper table{
+  width:100%;
+  border-collapse:separate;
+  border-spacing:0 20px;
+}
+
+/* Row data styles*/
+
+tr.table-data td{
+  border-bottom:3px solid grey;
+  padding-bottom:10px;
+}
+.cow-profile-img-wrapper{
+  width:150px;
+}
+tr.table-data button{
+  width:100px;
+  background:#0e8df2;
+  border:none;
+  border-radius:5px;
+  color:white;
+  padding:5px;
+}
+.cow-profile-img-wrapper img{
+  max-width:100%;
+  
+  object-fit:cover;
+}
+@media only screen and (max-width:956px){
+  .investment-wrapper{
+    width:95%;
+  }
+  .farm-wrapper table{
+  width:100%;
+  }
+  .cow-profile-img-wrapper{
+  width:50px;
+}
+tr.table-data button{
+  width:50px;
+  background:#0e8df2;
+  border:none;
+  border-radius:5px;
+  color:white;
+  padding:1px;
+}
+.cow-profile-img-wrapper img{
+  max-width:100%;
+  
+  object-fit:cover;
+}
+}

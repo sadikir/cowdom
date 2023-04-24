@@ -1,0 +1,138 @@
+.account-nav{
+  
+  position: fixed;
+  width:100%;
+  align-items:center;
+  justify-content: space-between;
+  padding:10px 20px;
+  background:#1b2430;
+  box-shadow:0px 5px 15px rgba(0,0,0,0.6);
+  z-index:2;
+  top:0;
+}
+
+.logo-wrapper{
+  width:150px;
+}
+.logo{
+  width:100%;
+  z-index:100;
+}
+.profile-image-wrapper{
+  width:70px;
+}
+.profile-image-wrapper>img{
+  width:100%;
+  object-fit: cover;
+  border-radius:50%;
+  z-index:100;
+}
+
+.account-navmenu{
+  display:flex;
+  flex-direction:column;
+  max-width: 240px;
+  padding:0px;
+  margin-bottom:0px;
+  position:fixed;
+  left:0;
+  margin-top:20px;
+  height:100%;
+  margin-left:25px;
+}
+.account-navmenu li{
+  list-style:none;
+  padding:0px 50px 0px 25px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:10px;
+  margin-top:10px;
+  width:90%;
+  color: #afb0b3;
+  
+  
+}
+.account-menu-icon{
+  color:inherit;
+  width:10%;
+}
+.account-navmenu li span{
+  text-decoration:none;
+  width:70%;
+  font-size: 1.3rem;
+  font-weight:600;
+  color:inherit;
+  white-space:nowrap;
+}
+.account-navmenu li:hover{
+  color:white;
+  background:#afb0b3;
+}
+
+#mobile{
+  display:none;
+}
+#mobile i{
+  color:white;
+}
+
+ol, ul {
+    padding-left: 0px;
+}
+@media screen and (max-width:956px){
+  .account-nav{
+    display:flex;
+    
+  }
+  .account-navmenu{
+    position:fixed;
+    flex-direction:column;
+    top:30px;
+    display:flex;
+    margin-left:0px;
+    width:300px;
+    height:100vh;
+    background:#1b2430;
+    left:-300px;
+    transition: 0.3s ease-in-out;
+    z-index:10;
+    padding-top:40px;
+    
+  }
+  .profile-image-wrapper{
+  width:40px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.profile-image-wrapper>img{
+  width:100%;
+  object-fit: cover;
+  border-radius:50%;
+  z-index:100;
+}
+  
+  #mobile{
+    display:inline;
+  }
+  .show-menu{
+    left:0px !important;
+  }
+  .account-navmenu li{
+    margin-bottom:10px;
+    margin-top:10px;
+    padding:0 25px;
+    
+    width:100%;
+  }
+  .account-navmenu li a{
+    padding-left:5px;
+    width:100%;
+    font-size:16px;
+    height:100%;
+}
+  .account-navmenu li a:hover::before{
+  background:none;
+}
+}
