@@ -124,7 +124,7 @@ const Checkout = ({ passedCheckoutToggle }) => {
                   </div>
                 </div>
                 <div className="order-column2">
-                  <p className="order-count">x2</p>
+                  <p className="order-count">x3</p>
                 </div>
               </div>
             </div>
